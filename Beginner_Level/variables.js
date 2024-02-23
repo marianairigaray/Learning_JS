@@ -24,9 +24,13 @@ Como o js separa cada tipo de dados?
    * typeof -> retorna o tipo de alguma variavel
 
 IDENTIFICADORES são os nomes das variaveis, funções, etc.
+DECLARAR uma variavel é apenas reservar um espaço na memoria para ela.
+    É possivel nao declarar variaveis em JS, mas elas sobem de escopo (para escopo global) dificultando o entendimento do código.
+ATRIBUIR um valor a variavel, atribui um valor a varaivel.
    
 BLOCO é definido por {}
 
+Boa pratica ao definir variaveis em um codigo: - todas variaveis comecando com minusculas ou todas comecando com maiuscula.
 */
 
 const num = 3
